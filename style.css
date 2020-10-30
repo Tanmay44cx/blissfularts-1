@@ -1,0 +1,198 @@
+h1{
+    color:white;
+    margin-left:700px
+}
+
+.menu{
+    margin-right:60px
+}
+
+.menu a{
+    margin-left:60px
+}
+
+
+/*{
+    border:solid
+}*/
+
+.header *{
+border:solid
+}
+
+.header {
+    background-color:#E5AB4D ;
+    display:flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color:cornflowerblue; 
+}
+.item1{
+    position: relative;
+    }
+.item2{
+  position: relative;
+ }
+.item3{
+  position: relative;
+ }
+.item4{
+  position: relative;
+  }
+
+
+
+.item1 p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+    
+}
+
+.item2 p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+    
+}
+
+.item3 p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+    
+}
+
+.item4 p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+    
+}
+
+.item1:hover p{
+    opacity: 1;
+}
+.item2:hover p{
+    opacity: 1;
+}.item3:hover p{
+    opacity: 1;
+}.item4:hover p{
+    opacity: 1;
+}
+
+
+.item1:hover img{
+    opacity: 0.33;
+}
+.item2:hover img{
+    opacity: 0.33;
+}
+.item3:hover img{
+    opacity: 0.33;
+}
+.item4:hover img{
+    opacity: 0.33;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+justify-content:center;
+}
+
+.flexthing {
+    display: flex;
+    flex-wrap: wrap;
+   
+justify-content:space-evenly;
+  }
+.socials{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-width: 30px;
+    border-style: ridge;
+    border-color:#E5AB4D;
+    border-right-width: 0px; 
+    border-top-width: 0px;
+    border-bottom-width: 0px;  
+    margin-top:100px ;
+}
+
+
+a:link{
+color:plum
+}
+
+a:visited{
+    color:skyblue
+}
+
+
+.item1{
+    border-width: 25px;
+    border-style: ridge;
+    border-color: #E5AB4D;
+}
+
+.item2{
+    border-width: 25px;
+    border-style: ridge;
+    border-color: #E5AB4D;
+}
+
+.item3{
+    border-width: 25px;
+    border-style: ridge;
+    border-color: #E5AB4D;
+}
+
+.item4{
+    border-width: 25px;
+    border-style: ridge;
+    border-color: #E5AB4D;
+}
+
+.item1 P{
+
+font-family: cursive;
+font-size: 50px;
+
+}
+
+.item2 P{
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+.item3 P{
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+.item4 P{
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+
+.socials p{
+    display: flex;
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+}
